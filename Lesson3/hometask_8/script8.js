@@ -45,7 +45,7 @@ switch (sport) {
   case null:
     messageSport = `Шкода, що Ви не захотіли ввести свій улюблений вид спорту.`;
   default:
-    messageSport = `Твій улюблений вид спорту: ${sport}`;
+    messageSport = `Твій улюблений вид спорту: ${sport}.`;
     break;
 }
 
