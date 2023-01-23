@@ -13,7 +13,7 @@ switch (age) {
     break;
   default:
     messageAge = `Тобі ${2023 - age}.`;
-    break;
+    break;z
 }
 
 switch (city) {
@@ -55,3 +55,5 @@ switch (sport) {
 }
 
 alert(`${messageAge} \n ${messageCity} \n ${messageSport}`);
+
+
