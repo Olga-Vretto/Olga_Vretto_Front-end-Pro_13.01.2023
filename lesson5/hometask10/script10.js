@@ -19,7 +19,7 @@ console.log(countNumber);
 
 let multTable = "";
 for (let i = 1; i <= 10; i++) {
-  multTable += `${i * 7} `;
+  multTable += `${i} * 7 = ${i * 7}, `;;
 }
 console.log(multTable);
 
