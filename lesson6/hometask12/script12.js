@@ -5,6 +5,3 @@ numbersArray.sort( (a, b) => a - b );
 console.log(numbersArray);
 numbersArray.splice(1, 3);
 console.log(numbersArray);
-
-
-    
