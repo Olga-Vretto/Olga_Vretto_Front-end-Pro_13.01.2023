@@ -21,7 +21,7 @@ const porsche = new Auto("Porsche");
 const tesla = new Auto("Tesla");
 const lamborghini = new Auto("Lamborghini");
 
-lamborghini.openDoors = "verical";
+lamborghini.openDoors = "vertical";
 
 console.log(porsche);
 console.log(tesla);
