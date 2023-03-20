@@ -13,7 +13,7 @@ for (let num of randomGenerator) {
   console.log(num);
 }
 
-//   Task
+//   Task 2
 
 async function showMyDayRoutine(time) {
     
