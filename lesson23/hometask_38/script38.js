@@ -19,7 +19,7 @@ if (countImage === 0) {
 buttonPrev.addEventListener("click", () => {
   countImage--;
   image.src = images[countImage];
-  if (countImage === 0) {
+  if (countImage === 1) {
     buttonPrev.style.display = "none";
   }
   if (countImage < images.length - 1) {
