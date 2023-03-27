@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&display=swap");
+
+body {
+  font-family: "Alkatra", cursive;
+  font-size: 16px;
+}
+
+.page-wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  margin: 0 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(243, 246, 244, 0.475),
+    rgba(75, 105, 148, 0.529)
+  );
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  box-shadow: rgb(85, 84, 84) 0 0 10px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tree__svg {
+  width: 40px;
+  height: 60px;
+  margin: 0 auto;
+}
+.txt {
+  max-width: 450px;
+  width: 100%;
+}
+
+.slider-txt {
+  margin: 15px 0;
+}
+
+.slider__container {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.slider {
+  max-width: 620px;
+  width: 100%;
+  margin: 0 auto;
+  transition: all 1s;
+}
+
+.img {
+  width: 100%;
+  max-height: 350px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn-prev {
+  position: absolute;
+  left: 3%;
+  top: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.744);
+  border-radius: 50%;
+  box-shadow: grey 1px 1px 2px;
+  padding: 3px 8px;
+  background-color: rgba(40, 152, 154, 0.43);
+  transform: translateY(-20%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-next {
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.744);
+  border-radius: 50%;
+  box-shadow: grey -1px 1px 2px;
+  padding: 3px 8px;
+  background-color: rgba(40, 152, 154, 0.43);
+  transform: translateY(-20%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+  transform: scale(1.1);
+  background-color: rgba(205, 165, 172, 0.53);
+}
+
+.question-txt {
+  margin: 10px auto;
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
